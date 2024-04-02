@@ -23,6 +23,7 @@ import Download from "pages/Presentation/sections/Download";
 
 // Presentation page components
 import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
+import CardPlan from "examples/Cards/Plan/CardPlan";
 
 // Routes
 import routes from "routes";
@@ -146,7 +147,6 @@ function Presentation() {
           </Grid>
         </Container>
         <Testimonials />
-        <Download />
         <MKBox pt={18} pb={6}>
           <Container>
             <Grid container spacing={3}>

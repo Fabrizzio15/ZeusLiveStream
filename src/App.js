@@ -23,6 +23,7 @@ export default function App() {
   }, [pathname]);
 
   const getRoutes = (allRoutes) =>
+  
     allRoutes.map((route) => {
       if (route.collapse) {
         return getRoutes(route.collapse);

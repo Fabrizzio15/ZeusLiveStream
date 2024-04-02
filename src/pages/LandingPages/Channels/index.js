@@ -3,28 +3,26 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 
-// Zeus LiveStream React components
+// Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import MKButton from "components/MKButton";
 
-// Zeus LiveStream React examples
+// Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
-// About Us page sections
+// Chanels page sections
 import InfoRecount from "pages/LandingPages/Information/sections/InfoRecount";
-import InfoMultiplataform from "pages/LandingPages/Information/sections/InfoMultiplataform";
-import Information from "pages/LandingPages/Information/sections/Information";
-import InfoFrequentQuestions from "pages/LandingPages/Information/sections/InfoFrequentQuestions";
+import ChannelsCategories from "pages/LandingPages/Channels/sections/ChannelsCategories";
 import InfoSuscripcion from "pages/LandingPages/Information/sections/InfoSuscripcion";
+import Footer from "pages/LandingPages/Footer/Footer";
 
 // Routes
 import routes from "routes";
-import Footer from "pages/LandingPages/Footer/Footer";
 
 // Images
-// import bgImage from "assets/images/bg-about-us.jpg";
-import bgImage from "assets/images/fondo/fondo6.webp";
+//import bgImage from "assets/images/city-profile.jpg";
+import bgImage from "assets/images/default.png";
 
 function Index() {
   return (
@@ -35,7 +33,7 @@ function Index() {
         // type: "external",
         // route: "https://www.creative-tim.com/product/material-kit-react",
         // label: "free download",
-        // color: "default",
+        // color: "info",
         // }}
         transparent
         light
@@ -75,10 +73,12 @@ function Index() {
                 },
               })}
             >
-              Tus canales, películas y series favoritas Y mucho más...{" "}
+              Sus programas y canales favoritos en cualquier dispositivo, desde cualquier ubicación.{" "}
             </MKTypography>{" "}
             <MKTypography variant="body1" color="white" opacity={0.9} mt={8} mb={3}>
-              Disfruta donde quieras Cancela cuando quieras{" "}
+              Mas de 1, 700 Canales de TV en vivo que puedes obtener aquí.Si tienes tu Firestick,
+              Xiaomi MI stick, TV box o cualquier otro dispositivo Android TV podrás disfrutar de
+              nuestra PRUEBA GRATIS, contáctanos por Instagram y en seguida serás atendido.{" "}
             </MKTypography>{" "}
             <MKButton color="info" variant="gradient" size="large">
               Prueba Gratis{" "}
@@ -125,15 +125,10 @@ function Index() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        <InfoRecount />
-        <InfoMultiplataform />
-        <Information />
-        <InfoFrequentQuestions />
-        <InfoSuscripcion />
+        <ChannelsCategories />
       </Card>{" "}
-      <MKBox pt={6} px={1} mt={6}>
-        <Footer />
-      </MKBox>{" "}
+      <InfoSuscripcion />
+      <Footer />
     </>
   );
 }

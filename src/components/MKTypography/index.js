@@ -23,7 +23,7 @@ const MKTypography = forwardRef(
         textGradient,
       }}
     >
-      {children}
+      {children}{" "}
     </MKTypographyRoot>
   )
 );

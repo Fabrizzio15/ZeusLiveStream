@@ -13,17 +13,14 @@ import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // About Us page sections
 import InfoRecount from "pages/LandingPages/Information/sections/InfoRecount";
-import InfoMultiplataform from "pages/LandingPages/Information/sections/InfoMultiplataform";
-import Information from "pages/LandingPages/Information/sections/Information";
-import InfoFrequentQuestions from "pages/LandingPages/Information/sections/InfoFrequentQuestions";
+import MoviesCategories from "pages/LandingPages/Movies/sections/MoviesCategories";
 import InfoSuscripcion from "pages/LandingPages/Information/sections/InfoSuscripcion";
+import Footer from "pages/LandingPages/Footer/Footer";
 
 // Routes
 import routes from "routes";
-import Footer from "pages/LandingPages/Footer/Footer";
 
 // Images
-// import bgImage from "assets/images/bg-about-us.jpg";
 import bgImage from "assets/images/fondo/fondo6.webp";
 
 function Index() {
@@ -75,7 +72,7 @@ function Index() {
                 },
               })}
             >
-              Tus canales, películas y series favoritas Y mucho más...{" "}
+              Tus películas favoritas Y más...{" "}
             </MKTypography>{" "}
             <MKTypography variant="body1" color="white" opacity={0.9} mt={8} mb={3}>
               Disfruta donde quieras Cancela cuando quieras{" "}
@@ -125,12 +122,9 @@ function Index() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        <InfoRecount />
-        <InfoMultiplataform />
-        <Information />
-        <InfoFrequentQuestions />
-        <InfoSuscripcion />
+        <MoviesCategories />
       </Card>{" "}
+      <InfoSuscripcion />
       <MKBox pt={6} px={1} mt={6}>
         <Footer />
       </MKBox>{" "}

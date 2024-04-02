@@ -10,13 +10,11 @@ import MKButton from "components/MKButton";
 
 // Zeus LiveStream React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
+import DefaultFooter from "examples/Footers/DefaultFooter";
 
 // About Us page sections
-import InfoRecount from "pages/LandingPages/Information/sections/InfoRecount";
-import InfoMultiplataform from "pages/LandingPages/Information/sections/InfoMultiplataform";
-import Information from "pages/LandingPages/Information/sections/Information";
-import InfoFrequentQuestions from "pages/LandingPages/Information/sections/InfoFrequentQuestions";
 import InfoSuscripcion from "pages/LandingPages/Information/sections/InfoSuscripcion";
+import PlansCategories from "pages/LandingPages/Plans/sections/PlansCategories";
 
 // Routes
 import routes from "routes";
@@ -125,12 +123,9 @@ function Index() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        <InfoRecount />
-        <InfoMultiplataform />
-        <Information />
-        <InfoFrequentQuestions />
-        <InfoSuscripcion />
+        <PlansCategories />
       </Card>{" "}
+      <InfoSuscripcion />
       <MKBox pt={6} px={1} mt={6}>
         <Footer />
       </MKBox>{" "}
