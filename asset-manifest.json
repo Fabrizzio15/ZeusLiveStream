@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/ZeusLiveStream/static/js/main.ec65fe5f.js",
+    "static/media/default.png": "/ZeusLiveStream/static/media/default.839095234d0085434a5f.png",
+    "static/media/tv.png": "/ZeusLiveStream/static/media/tv.a634213b1e5607957f14.png",
+    "static/media/blog2.jpg": "/ZeusLiveStream/static/media/blog2.aba7a3cb94805e9557d1.jpg",
+    "static/media/fondo6.webp": "/ZeusLiveStream/static/media/fondo6.f7e4a530f36dc6044fa1.webp",
+    "static/media/2.jpeg": "/ZeusLiveStream/static/media/2.10cd0f349997799280ef.jpeg",
+    "static/media/6.jpeg": "/ZeusLiveStream/static/media/6.9e67831bdf0658d4b098.jpeg",
+    "static/media/multiplatform.png": "/ZeusLiveStream/static/media/multiplatform.8b914847710d9b974723.png",
+    "static/media/5.jpeg": "/ZeusLiveStream/static/media/5.e480a619ec32382a66f7.jpeg",
+    "static/media/4.jpeg": "/ZeusLiveStream/static/media/4.e378755ffbba0577be10.jpeg",
+    "static/media/3.jpeg": "/ZeusLiveStream/static/media/3.f493e1572eb2445bd53c.jpeg",
+    "static/media/1.jpeg": "/ZeusLiveStream/static/media/1.120057fbf29966a0dfd9.jpeg",
+    "static/media/firestick2.jpg": "/ZeusLiveStream/static/media/firestick2.d615416b6676f2480b5a.jpg",
+    "index.html": "/ZeusLiveStream/index.html",
+    "main.ec65fe5f.js.map": "/ZeusLiveStream/static/js/main.ec65fe5f.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ec65fe5f.js"
+  ]
+}
